@@ -1,3 +1,5 @@
+[![Math-Utility Project Applying Contiuous Integration](https://github.com/Trantienloc2411/math-util-mvn/actions/workflows/mathutil-ci.yml/badge.svg)](https://github.com/Trantienloc2411/math-util-mvn/actions/workflows/mathutil-ci.yml)
+
 ### WELCOME TO Math Utility Project Repository
 ### You will find the following stuff in this Maven project
 * A jar project to demonstrate a Math Library
