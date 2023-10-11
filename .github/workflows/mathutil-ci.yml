@@ -22,3 +22,11 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml #This is command that package application into .jar and run all test cases of JUnit
 
+    - name: Distribute jar-war file # Gửi file .jar .war đi đâu, CD nhảy vào ...  staging is a server is used by QC
+      run: mkdir staging && cp target/*.jar staging # tạo thư mục staging chứa file .jar .war sau khi build      
+     
+    - name: Make hyperlink to jar-war file # Tạo hyperlink để download build 
+      uses: actions/upload-artifact@v1
+      with:
+        name: DOWNLOAD-FILE # Bản build được đánh version DOWNLOAD-FILE
+        path: staging
