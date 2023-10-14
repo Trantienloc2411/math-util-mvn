@@ -3,6 +3,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.f1nn.mathutil.core;
+//VCS: Version Control System
+//SCM: Source control Management
+//
 
 /**
  *
@@ -11,7 +14,7 @@ package com.f1nn.mathutil.core;
 public class MathUtility {
     public static final double PI = 3.1415;
     public static long getFactorial(int n){
-        long result = 1;
+        long result = 10;  // It will be fail right here
         if( n < 0 || n > 20){
             throw new IllegalArgumentException("Invailed n. n must be in between 0 and 20");
         }
