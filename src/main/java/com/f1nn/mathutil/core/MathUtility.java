@@ -31,7 +31,7 @@ public class MathUtility {
     //Upgrade getFactorial - Using Recursion
     
     public static long getFactorial(int n){
-        long result = 1;
+        
         if(n == 0 || n == 1){
             return 1;
         }
@@ -43,3 +43,4 @@ public class MathUtility {
         //GITHUB Actions return the values.
     }
 }
+
