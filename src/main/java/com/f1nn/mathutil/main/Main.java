@@ -38,7 +38,7 @@ public class Main {
         //Given  n = 1
         //Invoke getFactorial (n=1)
         //Expected Result: 1:; //1! == 1?????
-        System.out.println("1!| Expected = 1 | actual = " + MathUtility.getFactorial(1));
+        System.out.println("1!| Expected = 1 | actual = " + MathUtility.getFactorial(5));
         //PE
     }
 }
